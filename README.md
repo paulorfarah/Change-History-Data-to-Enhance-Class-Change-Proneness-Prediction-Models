@@ -1,4 +1,4 @@
-# Supplementary Material - Machine Learning for Change-Prone Class Prediction: A History-Based Approach
+# Supplementary Material - On the use of Change History Data to Enhance Class Change-Proneness Prediction Models
 
 On the use of Change History Data to Enhance Class
 Change-Proneness Prediction Models
