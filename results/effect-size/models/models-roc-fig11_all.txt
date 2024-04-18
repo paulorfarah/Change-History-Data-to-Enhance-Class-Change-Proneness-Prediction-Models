@@ -1,0 +1,130 @@
+/home/usuario/PycharmProjects/Roses-Analysis/venv/bin/python /home/usuario/PycharmProjects/Roses-Analysis/anaylisys-window-size.py
+model - ROC
+
+0.490078125
+Scale A
+-0.01984375000000005
+*****
+?????????
+0.55453125
+Scale A
+0.10906250000000006
+*****
+?????????
+0.5521875
+Scale A
+0.1043750000000001
+*****
+?????????
+0.85078125
+Scale A
+0.7015625000000001
+*****
+?????????
+0.8571875
+Scale A
+0.714375
+*****
+?????????
+0.56546875
+Scale A
+0.13093749999999993
+*****
+?????????
+0.56875
+Scale A
+0.13749999999999996
+*****
+?????????
+0.8521875
+Scale A
+0.704375
+*****
+?????????
+0.856875
+Scale A
+0.7137500000000001
+*****
+?????????
+0.49640625
+Scale A
+-0.007187500000000013
+*****
+?????????
+0.79328125
+Scale A
+0.5865625000000001
+*****
+?????????
+0.806015625
+Scale A
+0.61203125
+*****
+?????????
+0.813125
+Scale A
+0.62625
+*****
+?????????
+0.82359375
+Scale A
+0.6471875
+*****
+?????????
+0.52421875
+Scale A
+0.04843749999999991
+*****
+Best config: Set 2 
+
+Means:
+    name    mean    std     max     min
+0  Set 1  0.8207  0.059  0.9249  0.6905
+1  Set 2  0.8227  0.059  0.9210  0.6806
+2  Set 3  0.8060  0.069  0.9339  0.5905
+3  Set 4  0.7034  0.092  0.9071  0.5126
+4  Set 5  0.6985  0.091  0.9060  0.5210
+5  Set 6  0.8015  0.080  0.9270  0.5380
+***********
+      Set 1   Set 2   Set 3   Set 4   Set 5  
+Set 2 1.00    -       -       -       -      
+Set 3 0.96    0.92    -       -       -      
+Set 4 3.0e-11 8.1e-12 3.2e-08 -       -      
+Set 5 3.2e-12 8.3e-13 4.7e-09 1.00    -      
+Set 6 0.92    0.86    1.00    8.3e-08 1.3e-08
+
+***********
+     base compared_with     estimate   magnitude
+0   Set 1         Set 2  0.490078125  negligible
+1   Set 1         Set 3   0.55453125  negligible
+2   Set 1         Set 4    0.5521875  negligible
+3   Set 1         Set 5   0.85078125       large
+4   Set 1         Set 6    0.8571875       large
+5   Set 2         Set 3   0.56546875  negligible
+6   Set 2         Set 4      0.56875  negligible
+7   Set 2         Set 5    0.8521875       large
+8   Set 2         Set 6     0.856875       large
+9   Set 3         Set 4   0.49640625  negligible
+10  Set 3         Set 5   0.79328125       large
+11  Set 3         Set 6  0.806015625       large
+12  Set 4         Set 5     0.813125       large
+13  Set 4         Set 6   0.82359375       large
+14  Set 5         Set 6   0.52421875  negligible
+***********
+
+
+    name                            avg_std_effect
+0  Set 1  0.8207 $\pm$ 0.0590 $\blacktriangledown$ AF
+1  Set 2  0.8227 $\pm$ 0.0590 $\bigstar$ StEv
+2  Set 3  0.8060 $\pm$ 0.0690 $\blacktriangledown$ EvSm
+3  Set 4  0.7034 $\pm$ 0.0920 $\blacktriangledown$ StSm
+4  Set 5  0.6985 $\pm$ 0.0910 $\blacktriangle$ St
+5  Set 6  0.8015 $\pm$ 0.0800 $\blacktriangle$ Ev
+                                   Set 1                          Set 2                                    Set 3                                    Set 4                                Set 5                                Set 6
+0.8207 $\pm$ 0.0590 $\blacktriangledown$ & 0.8227 $\pm$ 0.0590 $\bigstar$ & 0.8060 $\pm$ 0.0690 $\blacktriangledown$ & 0.7034 $\pm$ 0.0920 $\blacktriangledown$ & 0.6985 $\pm$ 0.0910 $\blacktriangle$ & 0.8015 $\pm$ 0.0800 $\blacktriangle$ 
+
+
+\cellgray{0.8207 $\pm$ 0.0590 $\blacktriangledown$} & \cellbold{0.8227 $\pm$ 0.0590 $\bigstar$} & \cellgray{0.8060 $\pm$ 0.0690 $\blacktriangledown$} & 0.7034 $\pm$ 0.0920 $\blacktriangledown$ & 0.6985 $\pm$ 0.0910 $\blacktriangle$ & \cellgray{0.8015 $\pm$ 0.0800 $\blacktriangle$} 
+
+
+

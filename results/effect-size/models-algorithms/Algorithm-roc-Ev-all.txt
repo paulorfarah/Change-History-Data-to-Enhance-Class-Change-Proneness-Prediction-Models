@@ -1,0 +1,106 @@
+/home/usuario/PycharmProjects/Roses-Analysis/venv/bin/python /home/usuario/PycharmProjects/Roses-Analysis/anaylisys-window-size.py
+Algoritm - ROC
+R[write to console]: Carregando pacotes exigidos: PMCMRplus
+
+R[write to console]: Carregando pacotes exigidos: devtools
+
+R[write to console]: Carregando pacotes exigidos: usethis
+
+R[write to console]: Carregando pacotes exigidos: scmamp
+
+R[write to console]: 
+Attaching package: ‘scmamp’
+
+
+R[write to console]: The following objects are masked from ‘package:PMCMRplus’:
+
+    friedmanTest, tukeyTest
+
+
+?????????
+0.3125
+Scale A
+-0.375
+*****
+?????????
+0.235
+Scale A
+-0.53
+*****
+?????????
+0.31
+Scale A
+-0.38
+*****
+?????????
+0.3975
+Scale A
+-0.20499999999999996
+*****
+?????????
+0.65
+Scale A
+0.30000000000000004
+*****
+?????????
+0.7775
+Scale A
+0.5549999999999999
+*****
+Best config: RandomForest 
+
+Means:
+               name    mean    std    max    min
+0                DT  0.7973  0.042  0.859  0.730
+1  LogistRegression  0.7556  0.086  0.903  0.645
+2               MLP  0.8076  0.097  0.899  0.538
+3      RandomForest  0.8454  0.058  0.927  0.712
+***********
+                 DT     LogistRegression MLP   
+LogistRegression 0.7493 -                -     
+MLP              0.6471 0.1268           -     
+RandomForest     0.1233 0.0065           0.7421
+
+***********
+               base     compared_with estimate magnitude
+0                DT  LogistRegression   0.3125    medium
+1                DT               MLP    0.235     large
+2                DT      RandomForest     0.31    medium
+3  LogistRegression               MLP   0.3975     small
+4  LogistRegression      RandomForest     0.65     small
+5               MLP      RandomForest   0.7775     large
+***********
+               name                        avg_std_effect
+0                DT    0.7973 $\pm$ 0.0420 $\vartriangle$
+1  LogistRegression   0.7556 $\pm$ 0.0860 $\triangledown$
+2               MLP  0.8076 $\pm$ 0.0970 $\blacktriangle$
+3      RandomForest        0.8454 $\pm$ 0.0580 $\bigstar$
+                                DT                    LogistRegression                                  MLP                   RandomForest
+0.7973 $\pm$ 0.0420 $\vartriangle$ & 0.7556 $\pm$ 0.0860 $\triangledown$ & 0.8076 $\pm$ 0.0970 $\blacktriangle$ & 0.8454 $\pm$ 0.0580 $\bigstar$ 
+
+
+R[write to console]: 
+	Pairwise comparisons using Nemenyi's all-pairs test with chi-square approximation
+
+
+R[write to console]: data: value and group
+
+
+R[write to console]: 
+P value adjustment method: single-step
+
+R[write to console]: alternative hypothesis: two.sided
+
+\cellgray{0.7973 $\pm$ 0.0420 $\vartriangle$} & 0.7556 $\pm$ 0.0860 $\triangledown$ & \cellgray{0.8076 $\pm$ 0.0970 $\blacktriangle$} & \cellbold{0.8454 $\pm$ 0.0580 $\bigstar$} 
+
+
+R[write to console]: Warning message:
+
+R[write to console]: In kwAllPairsNemenyiTest.default(value, group, "Chisquare") :
+R[write to console]: 
+ 
+R[write to console]:  Ties are present. Chi-sq was corrected for ties.
+
+
+Process finished with exit code 0
+

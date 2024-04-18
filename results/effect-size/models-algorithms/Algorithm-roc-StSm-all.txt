@@ -1,0 +1,13 @@
+/home/usuario/PycharmProjects/Roses-Analysis/venv/bin/python /home/usuario/PycharmProjects/Roses-Analysis/anaylisys-window-size.py
+Algoritm - ROC
+Best config: MLP 
+
+Means:
+               name    mean    std     max     min
+0                DT  0.7012  0.090  0.8974  0.5864
+1  LogistRegression  0.6976  0.033  0.7701  0.6636
+2               MLP  0.7249  0.103  0.8638  0.5126
+3      RandomForest  0.6899  0.120  0.9071  0.5206
+
+Process finished with exit code 0
+

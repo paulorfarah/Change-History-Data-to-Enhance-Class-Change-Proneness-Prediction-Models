@@ -1,0 +1,166 @@
+/home/usuario/PycharmProjects/Roses-Analysis/venv/bin/python /home/usuario/PycharmProjects/Roses-Analysis/anaylisys-window-size.py
+model - Sensitivity
+R[write to console]: Carregando pacotes exigidos: PMCMRplus
+
+R[write to console]: Carregando pacotes exigidos: devtools
+
+R[write to console]: Carregando pacotes exigidos: usethis
+
+R[write to console]: Carregando pacotes exigidos: scmamp
+
+R[write to console]: 
+Attaching package: ‘scmamp’
+
+
+R[write to console]: The following objects are masked from ‘package:PMCMRplus’:
+
+    friedmanTest, tukeyTest
+
+
+?????????
+0.465
+Scale A
+-0.06999999999999995
+*****
+?????????
+0.49375
+Scale A
+-0.012499999999999956
+*****
+?????????
+0.7375
+Scale A
+0.4750000000000001
+*****
+?????????
+0.46625
+Scale A
+-0.0675
+*****
+?????????
+0.74
+Scale A
+0.48
+*****
+?????????
+0.5125
+Scale A
+0.02499999999999991
+*****
+?????????
+0.78625
+Scale A
+0.5725
+*****
+?????????
+0.5225
+Scale A
+0.04499999999999993
+*****
+?????????
+0.7875
+Scale A
+0.575
+*****
+?????????
+0.7675
+Scale A
+0.5349999999999999
+*****
+?????????
+0.50125
+Scale A
+0.0024999999999999467
+*****
+?????????
+0.7725
+Scale A
+0.5449999999999999
+*****
+?????????
+0.255
+Scale A
+-0.49
+*****
+?????????
+0.49
+Scale A
+-0.020000000000000018
+*****
+?????????
+0.765
+Scale A
+0.53
+*****
+Best config: Ev 
+
+Means:
+   name    mean    std     max     min
+0    AF  0.7701  0.073  0.9459  0.5625
+1    Ev  0.7830  0.094  1.0000  0.6120
+2  EvSm  0.7801  0.076  0.9459  0.6428
+3    St  0.5889  0.203  0.8520  0.2140
+4  StEv  0.7714  0.071  0.9459  0.6161
+5  StSm  0.5982  0.187  0.8558  0.2232
+***********
+     AF    Ev    EvSm  St    StEv 
+Ev   0.999 -     -     -     -    
+EvSm 1.000 1.000 -     -     -    
+St   0.225 0.093 0.142 -     -    
+StEv 1.000 1.000 1.000 0.150 -    
+StSm 0.219 0.089 0.137 1.000 0.145
+
+***********
+    base compared_with estimate   magnitude
+0     AF            Ev    0.465  negligible
+1     AF          EvSm  0.49375  negligible
+2     AF            St   0.7375       large
+3     AF          StEv  0.46625  negligible
+4     AF          StSm     0.74       large
+5     Ev          EvSm   0.5125  negligible
+6     Ev            St  0.78625       large
+7     Ev          StEv   0.5225  negligible
+8     Ev          StSm   0.7875       large
+9   EvSm            St   0.7675       large
+10  EvSm          StEv  0.50125  negligible
+11  EvSm          StSm   0.7725       large
+12    St          StEv    0.255       large
+13    St          StSm     0.49  negligible
+14  StEv          StSm    0.765       large
+***********
+   name                            avg_std_effect
+0    AF  0.7701 $\pm$ 0.0730 $\blacktriangledown$
+1    Ev            0.7830 $\pm$ 0.0940 $\bigstar$
+2  EvSm  0.7801 $\pm$ 0.0760 $\blacktriangledown$
+3    St      0.5889 $\pm$ 0.2030 $\blacktriangle$
+4  StEv  0.7714 $\pm$ 0.0710 $\blacktriangledown$
+5  StSm      0.5982 $\pm$ 0.1870 $\blacktriangle$
+                                      AF                             Ev                                     EvSm                                   St                                     StEv                                 StSm
+0.7701 $\pm$ 0.0730 $\blacktriangledown$ & 0.7830 $\pm$ 0.0940 $\bigstar$ & 0.7801 $\pm$ 0.0760 $\blacktriangledown$ & 0.5889 $\pm$ 0.2030 $\blacktriangle$ & 0.7714 $\pm$ 0.0710 $\blacktriangledown$ & 0.5982 $\pm$ 0.1870 $\blacktriangle$ 
+
+
+R[write to console]: 
+	Pairwise comparisons using Nemenyi's all-pairs test with chi-square approximation
+
+
+R[write to console]: data: value and group
+
+
+R[write to console]: 
+P value adjustment method: single-step
+
+R[write to console]: alternative hypothesis: two.sided
+
+\cellgray{0.7701 $\pm$ 0.0730 $\blacktriangledown$} & \cellbold{0.7830 $\pm$ 0.0940 $\bigstar$} & \cellgray{0.7801 $\pm$ 0.0760 $\blacktriangledown$} & \cellgray{0.5889 $\pm$ 0.2030 $\blacktriangle$} & \cellgray{0.7714 $\pm$ 0.0710 $\blacktriangledown$} & \cellgray{0.5982 $\pm$ 0.1870 $\blacktriangle$} 
+
+
+R[write to console]: Warning message:
+
+R[write to console]: In kwAllPairsNemenyiTest.default(value, group, "Chisquare") :
+R[write to console]: 
+ 
+R[write to console]:  Ties are present. Chi-sq was corrected for ties.
+
+
+Process finished with exit code 0
+

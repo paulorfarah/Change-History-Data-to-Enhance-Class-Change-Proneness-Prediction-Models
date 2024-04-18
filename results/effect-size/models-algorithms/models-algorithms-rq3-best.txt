@@ -1,0 +1,220 @@
+/home/usuario/PycharmProjects/Roses-Analysis/venv/bin/python /home/usuario/PycharmProjects/Roses-Analysis/anaylisys-window-size.py
+AF Algorithm - ROC
+Best config: RandomForest 
+
+Means:
+               name    mean    std     max     min
+0                DT  0.8683  0.025  0.9009  0.8402
+1  LogistRegression  0.8006  0.077  0.9249  0.7443
+2               MLP  0.8370  0.048  0.8845  0.7725
+3      RandomForest  0.8815  0.025  0.9070  0.8465
+Ev Algorithm - ROC
+R[write to console]: Carregando pacotes exigidos: PMCMRplus
+
+R[write to console]: Carregando pacotes exigidos: devtools
+
+R[write to console]: Carregando pacotes exigidos: usethis
+
+R[write to console]: Carregando pacotes exigidos: scmamp
+
+R[write to console]: 
+Attaching package: ‘scmamp’
+
+
+R[write to console]: The following objects are masked from ‘package:PMCMRplus’:
+
+    friedmanTest, tukeyTest
+
+
+?????????
+0.72
+Scale A
+0.43999999999999995
+*****
+?????????
+0.22
+Scale A
+-0.56
+*****
+?????????
+0.0
+Scale A
+-1.0
+*****
+?????????
+0.24
+Scale A
+-0.52
+*****
+?????????
+0.12
+Scale A
+-0.76
+*****
+?????????
+0.28
+Scale A
+-0.43999999999999995
+*****
+Best config: RandomForest 
+
+Means:
+               name    mean    std    max    min
+0                DT  0.8254  0.034  0.859  0.773
+1  LogistRegression  0.7630  0.098  0.903  0.653
+2               MLP  0.8542  0.060  0.899  0.751
+3      RandomForest  0.8884  0.029  0.927  0.861
+***********
+                 DT    LogistRegression MLP  
+LogistRegression 0.984 -                -    
+MLP              0.709 0.477            -    
+RandomForest     0.177 0.076            0.780
+
+***********
+               base     compared_with estimate magnitude
+0                DT  LogistRegression     0.72    medium
+1                DT               MLP     0.22     large
+2                DT      RandomForest      0.0     large
+3  LogistRegression               MLP     0.24     large
+4  LogistRegression      RandomForest     0.12     large
+5               MLP      RandomForest     0.28    medium
+***********
+               name                        avg_std_effect
+0                DT  0.8254 $\pm$ 0.0340 $\blacktriangle$
+1  LogistRegression  0.7630 $\pm$ 0.0980 $\blacktriangle$
+2               MLP    0.8542 $\pm$ 0.0600 $\vartriangle$
+3      RandomForest        0.8884 $\pm$ 0.0290 $\bigstar$
+                                  DT                     LogistRegression                                MLP                   RandomForest
+0.8254 $\pm$ 0.0340 $\blacktriangle$ & 0.7630 $\pm$ 0.0980 $\blacktriangle$ & 0.8542 $\pm$ 0.0600 $\vartriangle$ & 0.8884 $\pm$ 0.0290 $\bigstar$ 
+
+
+R[write to console]: 
+	Pairwise comparisons using Nemenyi's all-pairs test with chi-square approximation
+
+
+R[write to console]: data: value and group
+
+
+R[write to console]: 
+P value adjustment method: single-step
+
+R[write to console]: alternative hypothesis: two.sided
+
+\cellgray{0.8254 $\pm$ 0.0340 $\blacktriangle$} & \cellgray{0.7630 $\pm$ 0.0980 $\blacktriangle$} & \cellgray{0.8542 $\pm$ 0.0600 $\vartriangle$} & \cellbold{0.8884 $\pm$ 0.0290 $\bigstar$} 
+
+
+EvSm Algorithm - ROC
+?????????
+0.72
+Scale A
+0.43999999999999995
+*****
+?????????
+0.36
+Scale A
+-0.28
+*****
+?????????
+0.04
+Scale A
+-0.92
+*****
+?????????
+0.24
+Scale A
+-0.52
+*****
+?????????
+0.08
+Scale A
+-0.84
+*****
+?????????
+0.08
+Scale A
+-0.84
+*****
+Best config: RandomForest 
+
+Means:
+               name    mean    std     max     min
+0                DT  0.8327  0.036  0.8645  0.7758
+1  LogistRegression  0.7706  0.085  0.8859  0.6856
+2               MLP  0.8460  0.031  0.8777  0.7974
+3      RandomForest  0.8983  0.030  0.9339  0.8625
+***********
+                 DT    LogistRegression MLP  
+LogistRegression 0.899 -                -    
+MLP              0.963 0.642            -    
+RandomForest     0.111 0.017            0.291
+
+***********
+               base     compared_with estimate magnitude
+0                DT  LogistRegression     0.72    medium
+1                DT               MLP     0.36     small
+2                DT      RandomForest     0.04     large
+3  LogistRegression               MLP     0.24     large
+4  LogistRegression      RandomForest     0.08     large
+5               MLP      RandomForest     0.08     large
+***********
+               name                        avg_std_effect
+0                DT  0.8327 $\pm$ 0.0360 $\blacktriangle$
+1  LogistRegression  0.7706 $\pm$ 0.0850 $\blacktriangle$
+2               MLP  0.8460 $\pm$ 0.0310 $\blacktriangle$
+3      RandomForest        0.8983 $\pm$ 0.0300 $\bigstar$
+                                  DT                     LogistRegression                                  MLP                   RandomForest
+0.8327 $\pm$ 0.0360 $\blacktriangle$ & 0.7706 $\pm$ 0.0850 $\blacktriangle$ & 0.8460 $\pm$ 0.0310 $\blacktriangle$ & 0.8983 $\pm$ 0.0300 $\bigstar$ 
+
+
+\cellgray{0.8327 $\pm$ 0.0360 $\blacktriangle$} & 0.7706 $\pm$ 0.0850 $\blacktriangle$ & \cellgray{0.8460 $\pm$ 0.0310 $\blacktriangle$} & \cellbold{0.8983 $\pm$ 0.0300 $\bigstar$} 
+
+
+R[write to console]: 
+	Pairwise comparisons using Tukey-Kramer-Nemenyi all-pairs test with Tukey-Dist approximation
+
+
+R[write to console]: data: value and group
+
+
+R[write to console]: 
+P value adjustment method: single-step
+
+R[write to console]: alternative hypothesis: two.sided
+
+St Algorithm - ROC
+Best config: MLP 
+
+Means:
+               name    mean    std    max    min
+0                DT  0.7150  0.114  0.891  0.605
+1  LogistRegression  0.7014  0.036  0.765  0.675
+2               MLP  0.7620  0.087  0.856  0.643
+3      RandomForest  0.7126  0.119  0.906  0.595
+StEvAlgorithm - ROC
+Best config: RandomForest 
+
+Means:
+               name    mean    std     max     min
+0                DT  0.8689  0.019  0.8867  0.8386
+1  LogistRegression  0.8001  0.076  0.9210  0.7434
+2               MLP  0.8403  0.051  0.9027  0.7828
+3      RandomForest  0.8836  0.022  0.9099  0.8494
+StSmAlgorithm - ROC
+Best config: MLP 
+
+Means:
+               name    mean    std     max     min
+0                DT  0.7277  0.106  0.8974  0.6420
+1  LogistRegression  0.7034  0.038  0.7701  0.6786
+2               MLP  0.7706  0.080  0.8638  0.6637
+3      RandomForest  0.7133  0.118  0.9071  0.5994
+R[write to console]: Warning message:
+
+R[write to console]: In kwAllPairsNemenyiTest.default(value, group, "Chisquare") :
+R[write to console]: 
+ 
+R[write to console]:  Ties are present. Chi-sq was corrected for ties.
+
+
+Process finished with exit code 0
+

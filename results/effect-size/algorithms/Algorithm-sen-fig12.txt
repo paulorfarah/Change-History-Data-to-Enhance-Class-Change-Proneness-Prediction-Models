@@ -1,0 +1,68 @@
+/home/usuario/PycharmProjects/Roses-Analysis/venv/bin/python /home/usuario/PycharmProjects/Roses-Analysis/anaylisys-window-size.py
+Algoritm - Sensitivity
+
+?????????
+0.6107291666666667
+Scale A
+0.2214583333333333
+*****
+?????????
+0.7344444444444445
+Scale A
+0.4688888888888889
+*****
+?????????
+0.591875
+Scale A
+0.18375000000000008
+*****
+?????????
+0.5575347222222222
+Scale A
+0.11506944444444445
+*****
+?????????
+0.47708333333333336
+Scale A
+-0.04583333333333328
+*****
+?????????
+0.4035416666666667
+Scale A
+-0.19291666666666663
+*****
+Best config: LogistRegression 
+
+Means:
+               name    mean    std     max     min
+0                DT  0.6137  0.148  0.8558  0.2143
+1  LogistRegression  0.7384  0.105  1.0000  0.5180
+2               MLP  0.6397  0.200  0.8940  0.0270
+3      RandomForest  0.6123  0.224  0.9200  0.0446
+***********
+                 DT    LogistRegression MLP  
+LogistRegression 1e-06 -                -    
+MLP              0.051 0.057            -    
+RandomForest     0.223 0.008            0.923
+
+***********
+               base     compared_with             estimate   magnitude
+0                DT  LogistRegression   0.6107291666666667       small
+1                DT               MLP   0.7344444444444445      medium
+2                DT      RandomForest             0.591875       small
+3  LogistRegression               MLP   0.5575347222222222  negligible
+4  LogistRegression      RandomForest  0.47708333333333336  negligible
+5               MLP      RandomForest   0.4035416666666667       small
+***********
+               name                            avg_std_effect
+0                DT       0.6137 $\pm$ 0.1480 $\triangledown$
+1  LogistRegression            0.7384 $\pm$ 0.1050 $\bigstar$
+2               MLP  0.6397 $\pm$ 0.2000 $\blacktriangledown$
+3      RandomForest  0.6123 $\pm$ 0.2240 $\blacktriangledown$
+                                 DT               LogistRegression                                      MLP                             RandomForest
+0.6137 $\pm$ 0.1480 $\triangledown$ & 0.7384 $\pm$ 0.1050 $\bigstar$ & 0.6397 $\pm$ 0.2000 $\blacktriangledown$ & 0.6123 $\pm$ 0.2240 $\blacktriangledown$ 
+
+
+0.6137 $\pm$ 0.1480 $\triangledown$ & \cellbold{0.7384 $\pm$ 0.1050 $\bigstar$} & \cellgray{0.6397 $\pm$ 0.2000 $\blacktriangledown$} & 0.6123 $\pm$ 0.2240 $\blacktriangledown$ 
+
+
