@@ -1,0 +1,67 @@
+/home/usuario/PycharmProjects/Roses-Analysis/venv/bin/python /home/usuario/PycharmProjects/Roses-Analysis/anaylisys-window-size.py
+Algoritm - Accuracy
+
+0.02020833333333333
+Scale A
+-0.9595833333333333
+*****
+?????????
+0.059618055555555556
+Scale A
+-0.8807638888888889
+*****
+?????????
+0.08180555555555556
+Scale A
+-0.8363888888888888
+*****
+?????????
+0.6676388888888889
+Scale A
+0.3352777777777778
+*****
+?????????
+0.7149652777777777
+Scale A
+0.4299305555555555
+*****
+?????????
+0.5787847222222222
+Scale A
+0.15756944444444443
+*****
+Best config: RandomForest 
+
+Means:
+               name    mean    std     max     min
+0                DT  0.9158  0.056  0.9882  0.7290
+1  LogistRegression  0.7612  0.077  0.9060  0.6120
+2               MLP  0.9008  0.061  0.9857  0.7225
+3      RandomForest  0.9433  0.036  0.9924  0.8590
+***********
+                 DT     LogistRegression MLP  
+LogistRegression <2e-16 -                -    
+MLP              0.5095 <2e-16           -    
+RandomForest     0.0084 <2e-16           2e-05
+
+***********
+               base     compared_with              estimate magnitude
+0                DT  LogistRegression   0.02020833333333333     large
+1                DT               MLP  0.059618055555555556     large
+2                DT      RandomForest   0.08180555555555556     large
+3  LogistRegression               MLP    0.6676388888888889    medium
+4  LogistRegression      RandomForest    0.7149652777777777    medium
+5               MLP      RandomForest    0.5787847222222222     small
+***********
+               name                        avg_std_effect
+0                DT  0.9158 $\pm$ 0.0560 $\blacktriangle$
+1  LogistRegression    0.7612 $\pm$ 0.0770 $\vartriangle$
+2               MLP   0.9008 $\pm$ 0.0610 $\triangledown$
+3      RandomForest        0.9433 $\pm$ 0.0360 $\bigstar$
+                                  DT                   LogistRegression                                 MLP                   RandomForest
+0.9158 $\pm$ 0.0560 $\blacktriangle$ & 0.7612 $\pm$ 0.0770 $\vartriangle$ & 0.9008 $\pm$ 0.0610 $\triangledown$ & 0.9433 $\pm$ 0.0360 $\bigstar$ 
+
+
+0.9158 $\pm$ 0.0560 $\blacktriangle$ & 0.7612 $\pm$ 0.0770 $\vartriangle$ & 0.9008 $\pm$ 0.0610 $\triangledown$ & \cellbold{0.9433 $\pm$ 0.0360 $\bigstar$} 
+
+

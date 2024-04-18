@@ -1,0 +1,67 @@
+/home/usuario/PycharmProjects/Roses-Analysis/venv/bin/python /home/usuario/PycharmProjects/Roses-Analysis/anaylisys-window-size.py
+Algoritm - ROC
+
+0.8025
+Scale A
+0.605
+*****
+?????????
+0.7125
+Scale A
+0.42500000000000004
+*****
+?????????
+0.7475
+Scale A
+0.4950000000000001
+*****
+?????????
+0.38
+Scale A
+-0.24
+*****
+?????????
+0.35
+Scale A
+-0.30000000000000004
+*****
+?????????
+0.55
+Scale A
+0.10000000000000009
+*****
+Best config: RandomForest 
+
+Means:
+               name    mean    std     max     min
+0                DT  0.8053  0.044  0.8645  0.7101
+1  LogistRegression  0.7663  0.076  0.8859  0.6802
+2               MLP  0.8016  0.072  0.8777  0.5905
+3      RandomForest  0.8507  0.059  0.9339  0.7346
+***********
+                 DT     LogistRegression MLP   
+LogistRegression 0.7201 -                -     
+MLP              0.9939 0.5558           -     
+RandomForest     0.1053 0.0042           0.1870
+
+***********
+               base     compared_with estimate   magnitude
+0                DT  LogistRegression   0.8025       large
+1                DT               MLP   0.7125      medium
+2                DT      RandomForest   0.7475       large
+3  LogistRegression               MLP     0.38       small
+4  LogistRegression      RandomForest     0.35       small
+5               MLP      RandomForest     0.55  negligible
+***********
+               name                            avg_std_effect
+0                DT      0.8053 $\pm$ 0.0440 $\blacktriangle$
+1  LogistRegression       0.7663 $\pm$ 0.0760 $\triangledown$
+2               MLP  0.8016 $\pm$ 0.0720 $\blacktriangledown$
+3      RandomForest            0.8507 $\pm$ 0.0590 $\bigstar$
+                                  DT                    LogistRegression                                      MLP                   RandomForest
+0.8053 $\pm$ 0.0440 $\blacktriangle$ & 0.7663 $\pm$ 0.0760 $\triangledown$ & 0.8016 $\pm$ 0.0720 $\blacktriangledown$ & 0.8507 $\pm$ 0.0590 $\bigstar$ 
+
+
+\cellgray{0.8053 $\pm$ 0.0440 $\blacktriangle$} & 0.7663 $\pm$ 0.0760 $\triangledown$ & \cellgray{0.8016 $\pm$ 0.0720 $\blacktriangledown$} & \cellbold{0.8507 $\pm$ 0.0590 $\bigstar$} 
+
+

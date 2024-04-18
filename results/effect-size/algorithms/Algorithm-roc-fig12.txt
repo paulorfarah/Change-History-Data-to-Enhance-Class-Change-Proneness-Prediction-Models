@@ -1,0 +1,67 @@
+/home/usuario/PycharmProjects/Roses-Analysis/venv/bin/python /home/usuario/PycharmProjects/Roses-Analysis/anaylisys-window-size.py
+Algoritm - ROC
+
+0.364375
+Scale A
+-0.27125
+*****
+?????????
+0.37725694444444446
+Scale A
+-0.24548611111111107
+*****
+?????????
+0.36302083333333335
+Scale A
+-0.2739583333333333
+*****
+?????????
+0.5899305555555555
+Scale A
+0.17986111111111103
+*****
+?????????
+0.5707638888888888
+Scale A
+0.1415277777777777
+*****
+?????????
+0.47600694444444447
+Scale A
+-0.04798611111111106
+*****
+Best config: RandomForest 
+
+Means:
+               name    mean    std     max     min
+0                DT  0.7780  0.085  0.9009  0.5864
+1  LogistRegression  0.7506  0.076  0.9249  0.6450
+2               MLP  0.7812  0.091  0.9027  0.5126
+3      RandomForest  0.7919  0.111  0.9339  0.5206
+***********
+                 DT    LogistRegression MLP  
+LogistRegression 0.062 -                -    
+MLP              0.961 0.014            -    
+RandomForest     0.294 8.4e-05          0.592
+
+***********
+               base     compared_with             estimate   magnitude
+0                DT  LogistRegression             0.364375       small
+1                DT               MLP  0.37725694444444446       small
+2                DT      RandomForest  0.36302083333333335       small
+3  LogistRegression               MLP   0.5899305555555555       small
+4  LogistRegression      RandomForest   0.5707638888888888  negligible
+5               MLP      RandomForest  0.47600694444444447  negligible
+***********
+               name                            avg_std_effect
+0                DT       0.7780 $\pm$ 0.0850 $\triangledown$
+1  LogistRegression  0.7506 $\pm$ 0.0760 $\blacktriangledown$
+2               MLP  0.7812 $\pm$ 0.0910 $\blacktriangledown$
+3      RandomForest            0.7919 $\pm$ 0.1110 $\bigstar$
+                                 DT                         LogistRegression                                      MLP                   RandomForest
+0.7780 $\pm$ 0.0850 $\triangledown$ & 0.7506 $\pm$ 0.0760 $\blacktriangledown$ & 0.7812 $\pm$ 0.0910 $\blacktriangledown$ & 0.7919 $\pm$ 0.1110 $\bigstar$ 
+
+
+\cellgray{0.7780 $\pm$ 0.0850 $\triangledown$} & 0.7506 $\pm$ 0.0760 $\blacktriangledown$ & \cellgray{0.7812 $\pm$ 0.0910 $\blacktriangledown$} & \cellbold{0.7919 $\pm$ 0.1110 $\bigstar$} 
+
+
