@@ -1,0 +1,31 @@
+/home/usuario/PycharmProjects/Roses-Analysis/venv/bin/python /home/usuario/PycharmProjects/Roses-Analysis/anaylisys-window-size.py
+***** W Value ***
+Wilcoxon    23842.0
+
+0.7042621527777778
+Scale A
+0.40852430555555563
+*****
+Best config: Our 
+
+Means:
+   name    mean    std     max     min
+0   Our  0.7755  0.093  0.9339  0.5126
+1  Trad  0.7036  0.104  0.9401  0.5094
+***********
+     Our   
+Trad <2e-16
+
+***********
+  base compared_with            estimate magnitude
+0  Our          Trad  0.7042621527777778    medium
+***********
+   name                      avg_std_effect
+0   Our      0.7755 $\pm$ 0.0930 $\bigstar$
+1  Trad  0.7036 $\pm$ 0.1040 $\vartriangle$
+                           Our                               Trad
+0.7755 $\pm$ 0.0930 $\bigstar$ & 0.7036 $\pm$ 0.1040 $\vartriangle$ 
+
+
+\cellbold{0.7755 $\pm$ 0.0930 $\bigstar$} & 0.7036 $\pm$ 0.1040 $\vartriangle$ 
+

@@ -1,0 +1,72 @@
+/home/usuario/PycharmProjects/Roses-Analysis/venv/bin/python /home/usuario/PycharmProjects/Roses-Analysis/anaylisys-window-size.py
+***** W Value ***
+Wilcoxon    23842.0
+Name: W-val, dtype: float64
+R[write to console]: Carregando pacotes exigidos: PMCMRplus
+
+R[write to console]: Carregando pacotes exigidos: devtools
+
+R[write to console]: Carregando pacotes exigidos: usethis
+
+R[write to console]: Carregando pacotes exigidos: scmamp
+
+R[write to console]: 
+Attaching package: ‘scmamp’
+
+
+R[write to console]: The following objects are masked from ‘package:PMCMRplus’:
+
+    friedmanTest, tukeyTest
+
+
+?????????
+0.7042621527777778
+Scale A
+0.40852430555555563
+*****
+Best config: Our 
+
+Means:
+   name    mean    std     max     min
+0   Our  0.7755  0.093  0.9339  0.5126
+1  Trad  0.7036  0.104  0.9401  0.5094
+***********
+     Our   
+Trad <2e-16
+
+***********
+  base compared_with            estimate magnitude
+0  Our          Trad  0.7042621527777778    medium
+***********
+R[write to console]: 
+	Pairwise comparisons using Nemenyi's all-pairs test with chi-square approximation
+
+
+R[write to console]: data: value and group
+
+
+R[write to console]: 
+P value adjustment method: single-step
+
+R[write to console]: alternative hypothesis: two.sided
+
+   name                      avg_std_effect
+0   Our      0.7755 $\pm$ 0.0930 $\bigstar$
+1  Trad  0.7036 $\pm$ 0.1040 $\vartriangle$
+                           Our                               Trad
+0.7755 $\pm$ 0.0930 $\bigstar$ & 0.7036 $\pm$ 0.1040 $\vartriangle$ 
+
+
+\cellbold{0.7755 $\pm$ 0.0930 $\bigstar$} & 0.7036 $\pm$ 0.1040 $\vartriangle$ 
+
+
+R[write to console]: Warning message:
+
+R[write to console]: In kwAllPairsNemenyiTest.default(value, group, "Chisquare") :
+R[write to console]: 
+ 
+R[write to console]:  Ties are present. Chi-sq was corrected for ties.
+
+
+Process finished with exit code 0
+

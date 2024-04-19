@@ -1,0 +1,166 @@
+/home/usuario/PycharmProjects/Roses-Analysis/venv/bin/python /home/usuario/PycharmProjects/Roses-Analysis/anaylisys-window-size.py
+model - Sensitivity
+R[write to console]: Carregando pacotes exigidos: PMCMRplus
+
+R[write to console]: Carregando pacotes exigidos: devtools
+
+R[write to console]: Carregando pacotes exigidos: usethis
+
+R[write to console]: Carregando pacotes exigidos: scmamp
+
+R[write to console]: 
+Attaching package: ‘scmamp’
+
+
+R[write to console]: The following objects are masked from ‘package:PMCMRplus’:
+
+    friedmanTest, tukeyTest
+
+
+?????????
+0.503125
+Scale A
+0.006250000000000089
+*****
+?????????
+0.49890625
+Scale A
+-0.002187500000000009
+*****
+?????????
+0.51453125
+Scale A
+0.02906249999999999
+*****
+?????????
+0.739140625
+Scale A
+0.47828125
+*****
+?????????
+0.751875
+Scale A
+0.5037499999999999
+*****
+?????????
+0.5025
+Scale A
+0.004999999999999893
+*****
+?????????
+0.513984375
+Scale A
+0.027968750000000098
+*****
+?????????
+0.744140625
+Scale A
+0.48828125
+*****
+?????????
+0.754296875
+Scale A
+0.50859375
+*****
+?????????
+0.506640625
+Scale A
+0.013281249999999911
+*****
+?????????
+0.7396875
+Scale A
+0.4793750000000001
+*****
+?????????
+0.747890625
+Scale A
+0.49578125000000006
+*****
+?????????
+0.73390625
+Scale A
+0.46781249999999996
+*****
+?????????
+0.743828125
+Scale A
+0.4876562499999999
+*****
+?????????
+0.51
+Scale A
+0.020000000000000018
+*****
+Best config: Set 2 
+
+Means:
+    name    mean    std     max     min
+0  Set 1  0.7133  0.113  0.9459  0.3839
+1  Set 2  0.7149  0.108  0.9459  0.3661
+2  Set 3  0.7075  0.130  0.9459  0.1948
+3  Set 4  0.5346  0.217  0.8558  0.0270
+4  Set 5  0.5268  0.215  0.8520  0.0450
+5  Set 6  0.7089  0.152  1.0000  0.0860
+***********
+      Set 1   Set 2   Set 3   Set 4   Set 5  
+Set 2 1e+00   -       -       -       -      
+Set 3 1e+00   1e+00   -       -       -      
+Set 4 3.4e-05 3.2e-05 1e-04   -       -      
+Set 5 1.1e-05 1.1e-05 3.6e-05 1e+00   -      
+Set 6 1e+00   1e+00   1e+00   4.4e-05 1.5e-05
+
+***********
+     base compared_with     estimate   magnitude
+0   Set 1         Set 2     0.503125  negligible
+1   Set 1         Set 3   0.49890625  negligible
+2   Set 1         Set 4   0.51453125  negligible
+3   Set 1         Set 5  0.739140625       large
+4   Set 1         Set 6     0.751875       large
+5   Set 2         Set 3       0.5025  negligible
+6   Set 2         Set 4  0.513984375  negligible
+7   Set 2         Set 5  0.744140625       large
+8   Set 2         Set 6  0.754296875       large
+9   Set 3         Set 4  0.506640625  negligible
+10  Set 3         Set 5    0.7396875       large
+11  Set 3         Set 6  0.747890625       large
+12  Set 4         Set 5   0.73390625      medium
+13  Set 4         Set 6  0.743828125       large
+14  Set 5         Set 6         0.51  negligible
+***********
+    name                            avg_std_effect
+0  Set 1  0.7133 $\pm$ 0.1130 $\blacktriangledown$
+1  Set 2            0.7149 $\pm$ 0.1080 $\bigstar$
+2  Set 3  0.7075 $\pm$ 0.1300 $\blacktriangledown$
+3  Set 4  0.5346 $\pm$ 0.2170 $\blacktriangledown$
+4  Set 5      0.5268 $\pm$ 0.2150 $\blacktriangle$
+5  Set 6      0.7089 $\pm$ 0.1520 $\blacktriangle$
+                                   Set 1                          Set 2                                    Set 3                                    Set 4                                Set 5                                Set 6
+0.7133 $\pm$ 0.1130 $\blacktriangledown$ & 0.7149 $\pm$ 0.1080 $\bigstar$ & 0.7075 $\pm$ 0.1300 $\blacktriangledown$ & 0.5346 $\pm$ 0.2170 $\blacktriangledown$ & 0.5268 $\pm$ 0.2150 $\blacktriangle$ & 0.7089 $\pm$ 0.1520 $\blacktriangle$ 
+
+
+R[write to console]: 
+	Pairwise comparisons using Nemenyi's all-pairs test with chi-square approximation
+
+
+R[write to console]: data: value and group
+
+
+R[write to console]: 
+P value adjustment method: single-step
+
+R[write to console]: alternative hypothesis: two.sided
+
+\cellgray{0.7133 $\pm$ 0.1130 $\blacktriangledown$} & \cellbold{0.7149 $\pm$ 0.1080 $\bigstar$} & \cellgray{0.7075 $\pm$ 0.1300 $\blacktriangledown$} & 0.5346 $\pm$ 0.2170 $\blacktriangledown$ & 0.5268 $\pm$ 0.2150 $\blacktriangle$ & \cellgray{0.7089 $\pm$ 0.1520 $\blacktriangle$} 
+
+
+R[write to console]: Warning message:
+
+R[write to console]: In kwAllPairsNemenyiTest.default(value, group, "Chisquare") :
+R[write to console]: 
+ 
+R[write to console]:  Ties are present. Chi-sq was corrected for ties.
+
+
+Process finished with exit code 0
+
